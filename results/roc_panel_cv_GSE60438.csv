@@ -1,0 +1,4 @@
+"","mean","lo.2.5%","hi.97.5%"
+"9-gene panel",0.6957,0.6509,0.7213
+"GA + maternal age only",0.8784,0.8414,0.9086
+"GA + maternal age + panel",0.8528,0.7715,0.9167
