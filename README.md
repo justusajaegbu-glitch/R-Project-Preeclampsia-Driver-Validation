@@ -1,4 +1,4 @@
-# R-Project/Preeclampsia-Driver-Validation
+# R-Project-Preeclampsia-Driver-Validation
 Single-cell transcriptomics (Seurat) and machine learning integration of placental and PBMC gene expression.
 
 # Do Random Forest-Ranked Drivers of Preeclampsia Replicate in an Independent Decidua Cohort?
@@ -111,7 +111,7 @@ The discovery signature does not predict preeclampsia in decidua; its point esti
 Run the validation script inside `Validation.R/` using **R 4.4.2**[cite: 4, 9]. `GSE60438` is downloaded directly via `GEOquery::getGEO("GSE60438")`[cite: 4]. A fixed random seed is set prior to the Random Forest and cross-validation steps to ensure consistent rankings, and all output tables and plots are exported to `results/`[cite: 4, 5, 7].
 
 ```text
-R-Project/Preeclampsia-Driver-Validation
+R-Project-Preeclampsia-Driver-Validation
 ├── README.md
 ├── Validation.R/        # R analysis and validation script
 └── results/             # Exported ROC/CV CSV tables and PNG figures
