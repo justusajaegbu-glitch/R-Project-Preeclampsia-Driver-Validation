@@ -108,14 +108,10 @@ The discovery signature does not predict preeclampsia in decidua; its point esti
 
 ## 10. Reproducibility
 
-Run `scripts/validation.R` (R 4.4.2). GSE60438 is downloaded with `GEOquery::getGEO("GSE60438")`. Set a seed before the Random Forest step and the cross-validation, and save `sessionInfo()` with the results.
+Run the validation script inside `Validation.R/` using **R 4.4.2**[cite: 4, 9]. `GSE60438` is downloaded directly via `GEOquery::getGEO("GSE60438")`[cite: 4]. A fixed random seed is set prior to the Random Forest and cross-validation steps to ensure consistent rankings, and all output tables and plots are exported to `results/`[cite: 4, 5, 7].
 
-```
-preeclampsia-driver-validation/
+```text
+R-Project/Preeclampsia-Driver-Validation
 ├── README.md
-├── .gitignore        # *.rds, *.h5, GEO cache, .RData, .Rhistory
-├── scripts/validation.R
-├── data/README.md
-├── results/          # tables and figures
-└── docs/             # final_report.pdf, pipeline_flowchart.png
-```
+├── Validation.R/        # R analysis and validation script
+└── results/             # Exported ROC/CV CSV tables and PNG figures
