@@ -19,7 +19,7 @@ Single-cell transcriptomics (Seurat) and machine learning integration of placent
 | Discovery | PBMC, Zhou et al. | Pre-processed GitHub subsets (raw data CNP0003201 is access-restricted) |
 | Validation | GSE60438 | Illumina BeadArray, decidua basalis, 77 samples: 42 normotensive controls, 35 pre-eclamptic |
 
-The integrated Seurat object is `combined_study_light.rds`.
+The integrated Seurat object is `combined_study_light.rds` (https://drive.google.com/file/d/1zWCnJfgjW5ySvgEZq3J7Q9a3LE0fYcK9/view?usp=drivesdk).
 
 ## 3. Tools
 
