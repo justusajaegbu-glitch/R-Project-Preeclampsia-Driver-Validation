@@ -15,11 +15,11 @@ Single-cell transcriptomics (Seurat) and machine learning integration of placent
 
 | Role | Source | Details |
 |---|---|---|
-| Discovery | Placenta, GSE226601 (Admati) | Single-cell, integrated with Zhou PBMC data |
-| Discovery | PBMC, Zhou et al. | Pre-processed GitHub subsets (raw data CNP0003201 is access-restricted) |
-| Validation | GSE60438 | Illumina BeadArray, decidua basalis, 77 samples: 42 normotensive controls, 35 pre-eclamptic |
+| Discovery | Placenta, [GSE226601](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226601) (Admati) | Single-cell, integrated with Zhou PBMC data |
+| Discovery | PBMC, Zhou et al. | Pre-processed [GitHub](https://github.com/y-bai/pbmc-pe/tree/v1.0.0) subsets (raw data [CNP0003201](https://db.cngb.org/data_resources/project/CNP0003201/) is access-restricted) |
+| Validation | [GSE60438](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60438) | Illumina BeadArray, decidua basalis, 77 samples: 42 normotensive controls, 35 pre-eclamptic |
 
-The integrated Seurat object is `combined_study_light.rds` (https://drive.google.com/file/d/1zWCnJfgjW5ySvgEZq3J7Q9a3LE0fYcK9/view?usp=drivesdk).
+The integrated Seurat object is [combined_study_light.rds](https://drive.google.com/file/d/1zWCnJfgjW5ySvgEZq3J7Q9a3LE0fYcK9/view?usp=drivesdk).
 
 ## 3. Tools
 
